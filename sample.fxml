@@ -28,11 +28,12 @@
           </Menu>
           <Menu mnemonicParsing="false" text="Help">
             <items>
-              <MenuItem mnemonicParsing="false" text="About" />
+              <MenuItem mnemonicParsing="false" onAction="#handleAboutAlert" text="About" />
             </items>
           </Menu>
         </menus>
       </MenuBar>
-      <TextArea fx:id="textArea" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+      <TextArea fx:id="textArea" stylesheets="stylesheet.css" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
    </children>
 </VBox>
+
