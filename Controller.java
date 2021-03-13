@@ -98,6 +98,15 @@ public class Controller {
         alert.show();
     }
     @FXML
+    public void handleAboutAlert(){
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("About The Program");
+        alert.setContentText("The program was built and designed " +
+                "by a freshman at Computer Science Department in Ala-Too International University in 2021. " +
+                "The overall functionality of a program is simple and straightforward.");
+        alert.show();
+    }
+    @FXML
     private void handleClear(ActionEvent event){
         textArea.clear();
     }
