@@ -11,9 +11,12 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Scene scene = new Scene(root, 600,400);
+        scene.getStylesheets().add(getClass().getResource("stylesheet.css").toExternalForm());
         primaryStage.setTitle("Java NotePad");
-        primaryStage.setScene(new Scene(root, 600, 400));
+        primaryStage.setScene(scene);
         primaryStage.setResizable(false);
+
         primaryStage.show();
     }
 
