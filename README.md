@@ -2,7 +2,7 @@
 
 The program is built using Java and JavaFX GUI. If you open the application.
 First window you see is this 
-![first](Images/Java NotePad 3_13_2021 6_26_20 PM.png)
+[first](Images/Java NotePad 3_13_2021 6_26_20 PM.png)
 
 #### If during the opeing the file or saving happens the error, you will get this alert!
 ![alert](Images/Error 3_13_2021 6_28_17 PM.png)
