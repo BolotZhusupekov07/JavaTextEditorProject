@@ -3,7 +3,6 @@ package sample;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
-import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.layout.VBox;
 import javafx.stage.FileChooser;
@@ -105,6 +104,10 @@ public class Controller {
                 "by a freshman at Computer Science Department in Ala-Too International University in 2021. " +
                 "The overall functionality of a program is simple and straightforward.");
         alert.show();
+    }
+    @FXML
+    public void handleNewFile(ActionEvent event){
+        textArea.clear();
     }
     @FXML
     private void handleClear(ActionEvent event){
